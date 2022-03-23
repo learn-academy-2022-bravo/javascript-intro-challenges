@@ -44,3 +44,4 @@ console.log("LEARN".includes("rn"))
 //                                 Does "LEARN"[0] strictly equal "l" ?
 console.log("LEARN"[0] === "l")
 //                                     Modify the code from the previous question to return true.
+console.log("LEARN"[0] === "L")
