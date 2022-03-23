@@ -29,14 +29,21 @@
 
 
 // Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
-const item = 50
-const logs = 50
+//const item = 50
+//const logs = 50
 
-if (item + logs <= 100) {
-    console.log("in budget")
-}
+// if (item + logs <= 100) {
+//     console.log("in budget")
+// }
 
 // Write a statement that takes a variable of hungry and logs "eat food" if you are hungry and "keep coding" if you are not hungry.
+var hungry = false
+
+if (hungry === true) {
+    console.log("eat food")
+} else {
+    console.log("keep coding")
+}
 
 // Write a statement that takes a variable of trafficLight and logs "go" if the light is green, "slow down" if the light is yellow and "stop" if the light is red.
 
