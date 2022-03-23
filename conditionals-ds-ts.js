@@ -13,6 +13,7 @@ console.log(theAnswer / 2)
 console.log(theQuestion.length)
 
 // Write the code that will log the index of the character "f" in the theQuestion.
+console.log(theQuestion.indexOf("f"))
 
 // Write the code that will log the concatenation of the two variables.
 
