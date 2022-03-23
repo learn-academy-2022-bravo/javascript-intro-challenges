@@ -42,4 +42,5 @@ console.log("LEARN".includes("RN"))
 //                             Does "LEARN" contain the subset "rn" ?
 console.log("LEARN".includes("rn"))
 //                                 Does "LEARN"[0] strictly equal "l" ?
+console.log("LEARN"[0] === "l")
 //                                     Modify the code from the previous question to return true.
