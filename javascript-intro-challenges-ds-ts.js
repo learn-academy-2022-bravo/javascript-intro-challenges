@@ -32,6 +32,7 @@ console.log(5 == "5")
 //         Does 5 strictly equal "5" ?
 console.log(5 === "5")
 //             Does!3 strictly equal 3 ?
+console.log(!3 === 3)
 //                 Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7 ?
 //                     Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10 ?
 //                         Does "LEARN" contain the subset "RN" ?
