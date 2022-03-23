@@ -38,6 +38,7 @@ console.log("LEARN".length === 5 && "Student".length === 7)
 //                     Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10 ?
 console.log("LEARN".length === 5 || "Student".length === 10)
 //                         Does "LEARN" contain the subset "RN" ?
+console.log("LEARN".includes("RN"))
 //                             Does "LEARN" contain the subset "rn" ?
 //                                 Does "LEARN"[0] strictly equal "l" ?
 //                                     Modify the code from the previous question to return true.
