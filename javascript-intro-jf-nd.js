@@ -25,3 +25,9 @@
 // true
 // console.log(5 === "5")
 // false
+// console.log(!3 === 3)
+// false
+// console.log("LEARN".length === 5 && "Student".length === 7)
+// true
+// console.log("LEARN".length === 5 || "Student".length === 10)
+// true
