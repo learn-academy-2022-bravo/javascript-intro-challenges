@@ -12,3 +12,16 @@
 // 3
 // console.log("Natalia".length)
 // 7
+// var greeting = "Hello"
+// console.log(greeting.includes("e"))
+// true
+// console.log(greeting.charAt(1))
+// e
+// console.log(greeting.toUpperCase())
+// HELLO
+// console.log(34 / 3 > 67 / 2)
+// false
+// console.log(5 == "5")
+// true
+// console.log(5 === "5")
+// false
