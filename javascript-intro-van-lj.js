@@ -13,20 +13,38 @@
 // Write the code that will log the length of a string containing your name.
 //---console.log("Leanna".length);
 // Write the code that will log whether your string includes the letter "e"?
+//---var greeting = "Hello potato"
+//---console.log(greeting.includes("e"));
 // Write the code that will log the character at the first index of the string.
+//---var greeting = "Hello potato"
+//---console.log("Hello potato"[0])
 // Write the code that will log the string in all uppercase letters.
+//---var greeting = "hello"
+//---console.log(greeting.toUpperCase())
 // Write the code that will log true or false for the following:
 
 // Is 34 divided by 3 greater than 67 divided by 2?
+//---console.log(34/3 > 67/2); false
 // Does 5 evaluate to the same as "5"?
+//---console.log(5 == "5"); true
 // Does 5 strictly equal "5"?
+//---console.log(5 === "5"); false
 // Does !3 strictly equal 3?
+//---console.log(!3 === 3);false
 // Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7?
+//---console.log("LEARN".length === 5 && "STUDENT".length === 7);true
 // Does "LEARN".length strictly equal 5 OR "Student".length strictly equal 10?
+//---console.log("LEARN".length === 5 || "STUDENT".length === 10);true
 // Does "LEARN" contain the subset "RN"?
+//---var title = "LEARN"
+//---console.log(title.includes("RN"));true
 // Does "LEARN" contain the subset "rn"?
+//---var title = "LEARN"
+//---console.log(title.includes("rn"));false
 // Does "LEARN"[0] strictly equal "l"?
+//--console.log("LEARN"[0] === "l");
 // Modify the code from the previous question to return true.
+//---console.log("LEARN"[0] === "L");
 // Write the code that will log theAnswer divided by 2.
 // Write the code that will log the length of theQuestion.
 // Write the code that will log the index of the character "f" in the theQuestion.
