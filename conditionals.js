@@ -48,3 +48,24 @@ if (randomNumber % 2 == 0) {
 }
 
 //Challenge #6
+
+var myGrade = 80
+if (myGrade == 100){
+    console.log("Perfect Score!")
+} else { console.log("No Grade Available")}
+
+//Challenge #7
+
+console.log(typeof true)
+
+//Challenge #8
+
+let userPassword = "Testpassword!"
+
+if (userPassword.length == 12 && "!"){
+    console.log("Thats a mighty fine password!")
+} else if (userPassword.length = 8 || "!") {
+    console.log("The password is strong enough")
+} else { 
+    console.log("That is not a valid password")
+}
