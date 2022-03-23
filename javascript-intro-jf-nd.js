@@ -40,8 +40,18 @@
 // console.log("LEARN"[0] === "L")
 // true
 var theQuestion = "life, the universe, and everything"
-// var theAnswer = 42
+var theAnswer = 42
 // console.log(theAnswer / 2)
 // 21
 // console.log(theQuestion.length)
 // 34
+// console.log(theQuestion.indexOf("f"))
+// 2
+// console.log(theAnswer + theQuestion)
+// 42life, the universe, and everything
+// console.log("the universe")
+// the universe
+// console.log(theQuestion.charAt(0))
+// l
+// console.log(theQuestion.length > theAnswer.length)
+// false
