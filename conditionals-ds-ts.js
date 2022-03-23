@@ -16,6 +16,7 @@ console.log(theQuestion.length)
 console.log(theQuestion.indexOf("f"))
 
 // Write the code that will log the concatenation of the two variables.
+console.log(theQuestion + theAnswer)
 
 // Write the code that will log "the universe"
 
