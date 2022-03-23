@@ -10,6 +10,7 @@ var theAnswer = 42
 console.log(theAnswer / 2)
 
 // Write the code that will log the length of theQuestion.
+console.log(theQuestion.length)
 
 // Write the code that will log the index of the character "f" in the theQuestion.
 
