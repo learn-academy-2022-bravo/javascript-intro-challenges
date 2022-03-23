@@ -19,7 +19,7 @@ console.log(theQuestion.indexOf("f"))
 console.log(theQuestion + theAnswer)
 
 // Write the code that will log "the universe"
-
+console.log(theQuestion.slice(6, 18))
 // Write the code that will log the character "l" from theQuestion.
 
 // Write the code that will log whether theQuestion.length is greater than theAnswer.
