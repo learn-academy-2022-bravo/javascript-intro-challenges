@@ -79,3 +79,44 @@
 // else {
 //   console.log("Try again")
 // }
+
+// var num = 0
+// if (num === 0){
+//   console.log("The number is zero")
+// } else if (num === 1) {
+//   console.log("The number is odd")
+// } else {
+//   console.log("The number is even")
+// }
+
+// var num = 1
+// if (num === 0){
+//   console.log("The number is zero")
+// } else if (num === 1) {
+//   console.log("The number is odd")
+// } else {
+//   console.log("The number is even")
+// }
+
+// var num = 2
+// if (num === 0){
+//   console.log("The number is zero")
+// } else if (num === 1) {
+//   console.log("The number is odd")
+// } else {
+//   console.log("The number is even")
+// }
+
+// var gradePer = "100%"
+// if (gradePer === "100%"){
+//   console.log("Perfect Score")
+// } else {
+//   console.log ("No grade available")
+// }
+
+// var gradePer = "0%"
+// if (gradePer === "100%"){
+//   console.log("Perfect Score")
+// } else {
+//   console.log ("No grade available")
+// }
