@@ -21,3 +21,23 @@
 // console.log(greeting.charAt(0));
 
 // console.log(greeting.toUpperCase());
+
+//console.log("34/3">"67/2")
+
+//console.log (5 == "5")
+
+//console.log(!3===3)
+
+//console.log("learn".length===5 && "student".length===7)
+
+//console.log("learn".length===5 && "student".length===10)
+
+//var greeting = "learn"
+//console.log(greeting.includes("rn"))
+
+//var greeting = "learn"
+//console.log(greeting.includes("RN"))
+
+
+//var greeting = "learn"
+//console.log(greeting.charAt(0)==="l")
