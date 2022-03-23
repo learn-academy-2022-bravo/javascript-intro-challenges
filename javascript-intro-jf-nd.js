@@ -31,3 +31,17 @@
 // true
 // console.log("LEARN".length === 5 || "Student".length === 10)
 // true
+// console.log("LEARN".includes("RN"))
+// // true
+// console.log("LEARN".includes("rn"))
+// // false
+// console.log("LEARN"[0] === "l")
+// // false
+// console.log("LEARN"[0] === "L")
+// true
+var theQuestion = "life, the universe, and everything"
+// var theAnswer = 42
+// console.log(theAnswer / 2)
+// 21
+// console.log(theQuestion.length)
+// 34
