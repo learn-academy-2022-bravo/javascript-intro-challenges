@@ -28,6 +28,7 @@ console.log("dustin".toUpperCase())
 // Is 34 divided by 3 greater than 67 divided by 2 ?
 console.log(34 / 3 > 67 / 2)
 //     Does 5 evaluate to the same as "5" ?
+console.log(5 == "5")
 //         Does 5 strictly equal "5" ?
 //             Does!3 strictly equal 3 ?
 //                 Does "LEARN".length strictly equal 5 AND "Student".length strictly equal 7 ?
