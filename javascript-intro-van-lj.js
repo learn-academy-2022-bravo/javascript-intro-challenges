@@ -46,8 +46,12 @@
 // Modify the code from the previous question to return true.
 //---console.log("LEARN"[0] === "L");
 // Write the code that will log theAnswer divided by 2.
+//---console.log("theAnswer".length / 2);4.5
 // Write the code that will log the length of theQuestion.
+//---console.log("theQuestion".length);11
 // Write the code that will log the index of the character "f" in the theQuestion.
+var title2 = "theQuestion"
+console.log(title2.indexOf("l"));
 // Write the code that will log the concatenation of the two variables.
 // Write the code that will log "the universe".
 // Write the code that will log the character "l" from theQuestion.
