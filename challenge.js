@@ -82,6 +82,9 @@ console.log(teamone.sort(),teamtwo.sort())
 console.log(teamone.reverse(),teamtwo.reverse())
 
 // Write the code that sorts all the names in alphabetical order in a single array.
+let newOne = teamone.concat(teamtwo)
+console.log(newOne.sort())
+
 
 // Consider the variables:
 
