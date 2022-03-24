@@ -60,9 +60,10 @@ const array1 = ["Jose", "Darwin", "Victor"]
 const array2 = ["David", "Jonathan", "Amanda"]
 // Write the code that sorts the names in alphabetical order.
 comboArrays = array1.concat(array2)
-console.log(comboArrays.sort())
+// console.log(comboArrays.sort())
 // Write the code that sorts the names in reverse alphabetical order.
-//
+console.log(comboArrays.reverse())
+[ 'Amanda', 'Jonathan', 'David', 'Victor', 'Darwin', 'Jose' ]
 // Write the code that sorts all the names in alphabetical order in a single array.
 //
 // Consider the variables:
