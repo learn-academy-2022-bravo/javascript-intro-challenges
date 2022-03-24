@@ -17,7 +17,7 @@
 // console.log(groceryList3)
 
 // Write the code that will return a subset of the array containing only "chips" and "dip".
-//  let groceryList = ["chips", "dip", "cookies"]
+//let groceryList = ["chips", "dip", "cookies"]
 //  let groceryList2 = [groceryList.slice(0, 2)]
 //  console.log(groceryList)
 
@@ -30,12 +30,19 @@
 
 // var numbers = [2, 4, 6, 8, 10]
 // Write the code that will add the number 0 to the beginning of the array.
+let numbers = [2,4,6,8,10]
+console.log(numbers.unshift("0"))
+console.log(numbers)
 
 // Write the code that will add the number 12 to the end of the array.
+console.log(numbers.push(12))
+console.log(numbers)
 
 // Write the code that will remove the first number from the array.
-
+console.log(numbers.shift())
+console.log(numbers)
 // Write the code that will add the number 0 to the beginning of the array without altering the original array. HINT: it's not .unshift You'll have to get creative! ;)
+let numbers2 = 0
 
 // Consider the variable:
 
@@ -72,4 +79,3 @@
 // Write the code that logs the values from the numbers array that are at odd indexes.
 
 // Write the code that adds the values from odd indexes into the oddIndexes array.
-
