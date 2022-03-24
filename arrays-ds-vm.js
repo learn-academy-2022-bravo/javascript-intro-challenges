@@ -59,14 +59,14 @@
 
 // Consider the variable:
 
-var characters = ["y", "a", "r", "r", "a"]
+// var characters = ["y", "a", "r", "r", "a"]
 // Write the code that brings all the letters in the characters array together into a string.
 
 // console.log(characters.join(" "))
 
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
-var charsReversed = characters.reverse()
-console.log(charsReversed)
+// var charsReversed = characters.reverse()
+// console.log(charsReversed)
 
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
 
@@ -74,21 +74,33 @@ console.log(charsReversed)
 
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
 
-console.log(characters.join(""))
+// console.log(characters.join(""))
 
 // Create two arrays consisting of three first names of your cohort members in each.
+// let teamOne = ["Dustin", "Vanessa", "Toni"]
+// let teamTwo = ["LJ", "Zane", "Vincent"]
 
 // Write the code that sorts the names in alphabetical order.
+// console.log(teamOne.sort())
+// console.log(teamTwo.sort())
 
 // Write the code that sorts the names in reverse alphabetical order.
 
+// let reversedTeamOne = teamOne.sort()
+// console.log(reversedTeamOne.reverse())
+
 // Write the code that sorts all the names in alphabetical order in a single array.
+// console.log(teamOne.concat(teamTwo))
 
 // Consider the variables:
 
-// var numbers = [42, 221, 71, 7, 18, 87]
-// var oddIndexes = []
+var numbers = [42, 221, 71, 7, 18, 87]
+var oddIndexes = []
 // Write the code that logs the values from the numbers array that are at odd indexes.
 
-// Write the code that adds the values from odd indexes into the oddIndexes array.
+const oddNumbers = numbers.filter(number => {
+    return number % 2 !== 0
+})
+console.log(oddNumbers)
 
+// Write the code that adds the values from odd indexes into the oddIndexes array.
