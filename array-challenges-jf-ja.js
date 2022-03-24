@@ -47,15 +47,20 @@ var characters = ["y", "a", "r", "r", "a"]
 // console.log (characters.join(""))
 // yarra
 // Write the code that reverses the order of the letters in the characters array and saves it into a variable called charsReversed.
-//
+// console.log(characters.reverse())
+// let charReverse = characters
+// console.log(charReverse)
 // Write the code that brings all the letters in the charsReversed array together into a string with an asterisk between each letter.
-//
+// console.log(charReverse.join("*"))
+
 // Write the code that brings all the letters in the charsReversed array together into a string without separators.
-//
+// console.log(charReverse.join(""))
 // Create two arrays consisting of three first names of your cohort members in each.
-//
+const array1 = ["Jose", "Darwin", "Victor"]
+const array2 = ["David", "Jonathan", "Amanda"]
 // Write the code that sorts the names in alphabetical order.
-//
+comboArrays = array1.concat(array2)
+console.log(comboArrays.sort())
 // Write the code that sorts the names in reverse alphabetical order.
 //
 // Write the code that sorts all the names in alphabetical order in a single array.
