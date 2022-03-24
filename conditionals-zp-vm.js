@@ -50,11 +50,18 @@
 
 // Write a statement that takes two variables that are numbers and outputs the larger number. If the numbers are equal, output "the numbers are the same".
  
+arrays-ds-vm
+// console.log(5>4) {
+//     if true console.log("5")
+// } else if
+//     console.log("the numbers are the same")
+// }
 console.log(5>4) {
     if true console.log("5")
 } else if
     console.log("the numbers are the same")
 }
+ main
 
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
