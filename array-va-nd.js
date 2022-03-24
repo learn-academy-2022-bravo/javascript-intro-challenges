@@ -27,7 +27,7 @@ var groceryList = ["chips", "dip", "cookies"]
 
 // console.log(numbers)
 
-var numSet = [2, 13, 6, 8, 4, 2]
+// var numSet = [2, 13, 6, 8, 4, 2]
 
 
 // console.log(numSet.indexOf(2))
@@ -36,4 +36,11 @@ var numSet = [2, 13, 6, 8, 4, 2]
 
 
 
-console.log(numSet.slice(3,4))
+// console.log(numSet.slice(3,4))
+var bravoCohort1 = ["Victor", "Natalia", "Jack"]
+var bravoCohort2 =["Toni", "Dustin", "Vanessa"]
+// var bravoCohort0 = (bravoCohort1.concat(bravoCohort2))
+// console.log(bravoCohort0.sort())
+// console.log(bravoCohort0.reverse())
+console.log(bravoCohort1.unshift(bravoCohort2))
+console.log(bravoCohort1.sort())
