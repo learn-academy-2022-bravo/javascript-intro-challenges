@@ -29,12 +29,14 @@
 // console.log(appetizer.push("beans"))
 // console.log(appetizer)
 
-Consider the variable:
+// Consider the variable:
 //
+// var numbers = [2, 4, 6, 8, 10]
+// Write the code that will add the number 0 to the beginning of the array.
+
 var numbers = [2, 4, 6, 8, 10]
-Write the code that will add the number 0 to the beginning of the array.
-
-
+console.log(numbers.push(0))
+console.log(numbers)
 //
 // Write the code that will add the number 12 to the end of the array.
 //
