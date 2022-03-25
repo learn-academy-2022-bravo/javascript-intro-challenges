@@ -83,22 +83,21 @@ console.log(yelling("hi my name is jack"))
 // STRETCH Challenges
 // The World Translator
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+// (b) Have your function default to returning English.
 const helloWorld = (language) => {
-  if(language = "de"){
+  if(language =="de"){
     return "Hallo Welt!"
-  }else if(language = "es"){
+  }else if(language == "es"){
     return "Hola Mundo!"
-  }else if(language = "fr"){
+  }else if(language == "fr"){
     return "Bonjour Le Monde!"
-  }else if(language = "ru"){
+  }else if(language == "ru"){
     return "Privet Mir!"
   }else {
     return "Hello World!"
   }
 }
-console.log(helloWorld("es"))
-// (b) Have your function default to returning English.
-//
+console.log(helloWorld("en"))
 // The Pluralizer
 // (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
 //
@@ -107,4 +106,18 @@ console.log(helloWorld("es"))
 //
 // pluralizer(1, "dog")
 // // expected output: "1 dog"
+const pluralizer = (number1, noun) => {
+  if(number1 > 1 && noun == "sheep"){
+    return number1 + " sheep"
+  }else if(number1 > 1 && noun == "person"){
+    return number1 + " people"
+  }else if(number1 > 1 && noun == "goose"){
+    return number1 + " geese"
+  }else if(number1 > 1){
+      return number1 + " " + noun + "s"
+  }else {
+    return number1 + " " + noun
+  }
+}
+console.log(pluralizer(1, "dog"))
 // (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
