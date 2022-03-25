@@ -56,12 +56,12 @@ arrays-ds-vm
 // } else if
 //     console.log("the numbers are the same")
 // }
-console.log(5>4) {
-    if true console.log("5")
-} else if
-    console.log("the numbers are the same")
-}
- main
+// console.log(5>4) {
+//     if true console.log("5")
+// } else if
+//     console.log("the numbers are the same")
+// }
+//  main
 
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
