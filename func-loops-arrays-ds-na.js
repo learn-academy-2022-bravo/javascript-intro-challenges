@@ -21,18 +21,18 @@
 // var testArr2 = [0, 2, -7, 3, 5, 8, 10, 13]
 // --> [-7, 3, 5, 13]
 
-var theArray = [0, 2, -7, 3, 5, 8, 10, 13]
-
-const onlyOdd = (theArray) => {
-  let newArray = []
-  for (let i=0; i<theArray.length; i++){
-    if (theArray[i] % 2 !== 0){
-      newArray.push(theArray[i])
-    }
-  }
-   return newArray
-}
-console.log(onlyOdd(theArray))
+// var theArray = [0, 2, -7, 3, 5, 8, 10, 13]
+//
+// const onlyOdd = (theArray) => {
+//   let newArray = []
+//   for (let i=0; i<theArray.length; i++){
+//     if (theArray[i] % 2 !== 0){
+//       newArray.push(theArray[i])
+//     }
+//   }
+//    return newArray
+// }
+// console.log(onlyOdd(theArray))
 
 
 
