@@ -33,21 +33,49 @@
 // console.log(multiply(2,3))
 //
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
-const divisible = (num1, num2) => {
-  if (num1%num2 == 0){
-    return `${num1} is evenly divisible by ${num2}`
-  } else {
-    return `${num1} is not evenly divisible by ${num2}`
-  }
-}
-console.log(divisible(10,5))
+    // const divisible = (num1, num2) => {
+    //   if (num1%num2 == 0){
+    //     return `${num1} is evenly divisible by ${num2}`
+    //   } else {
+    //     return `${num1} is not evenly divisible by ${num2}`
+    //   }
+    // }
+    // console.log(divisible(10,5))
 //
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
-//
+      // const assignGrade = (score) => {
+      //   if (score >= 90){
+      //     return `A`
+      //   } else if (score >= 80) {
+      //     return 'B'
+      //   } else if (score >= 70) {
+      //     return 'C'
+      //   } else if (score >= 60) {
+      //     return 'D'
+      //   } else if (score < 59) {
+      //     return 'F'
+      //   }
+      // }
+      // console.log(assignGrade(65));
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
-//
+      // const isLonger = (text1, text2) => {
+      //   if (text1.length > text2.length) {
+      //   return `${text1} has the most characters!`
+      // } else if (text1.length < text2.length) {
+      //   return `${text2} has the most characters!`
+      //     }
+      //   }
+      // console.log(isLonger ("oj","bananas"));
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
-//
+      // const greaterNum = (num1, num2) => {
+      //   if (num1 > num2) {
+      //     return num1
+      //   } else if (num2 > num1) {
+      //   return num2
+      // }
+      // }
+      // console.log(greaterNum (35,10));
+
 // Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
 //
 // STRETCH Challenges
