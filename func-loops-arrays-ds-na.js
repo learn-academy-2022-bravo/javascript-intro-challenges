@@ -34,56 +34,49 @@
 // }
 // console.log(onlyOdd(theArray))
 
-
-
-
-
-
-
-
-// Write a function that takes in an array of numbers and letters and returns a string with only the letters. HINT: use the typeof method.
-// var comboArr = [7, "n", true, "i", "c", 10, "e", -388, "w", 3, "o", 0, "r", false, "k"]
-// // --> "nicework"
-// Create a function that takes in an array of numbers and returns the sum.
-// var addThese1 = [1, 2, 3, 4]
-// // --> 10
+// JavaScript Functions:
 //
-// var addThese2 = []
-// // --> 0
-// Create a function that takes in an array of numbers and returns the index of the largest number.
-// var indexHighestNumber = [1, 4, 2, 3]
-// // --> 1
+// Challenges
+// Copy the challenges into your JavaScript file. Comment out the instructions and code the solution to each problem beneath the prompt. Each solution requires pseudocode. Test your functions with multiple function calls.
+//
+// Write a function named marco that returns "polo".
+
+// const greeting = () => {
+//   return "polo"
+// }
+// console.log(greeting())
+
+
+
+// Write a function named greeting that takes a name as an argument and returns "Welcome, <person's name here>!"
+//
+// Write a function named oddOrEven that takes a number as an argument and returns whether the number is odd or even.
+//
+// Write a function named triple that takes a number as an argument and returns the result of that number multiplied by 3.
+//
+// Write a function named multiply that takes two numbers as arguments and returns the result of the numbers multiplied together.
+//
+// Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
+//
+// Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+//
+// Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
+//
+// Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+//
+// Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+//
 // STRETCH Challenges
+// The World Translator
+// (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+// (b) Have your function default to returning English.
 //
-// Create a function that takes in two arrays and returns one array with no duplicate values.
-// var arr1 = [3, 7, 10, 5, 4, 3, 3]
-// var arr2 = [7, 8, 2, 3, 1, 5, 4]
-// // --> [3, 7, 10, 5, 4, 8, 2, 1]
-// Create a function that takes in two numbers as arguments and returns an array the length of the first number filled with the second number.
-// var arrayLength = 6
-// var arrayValue = 0
-// // --> [0, 0, 0, 0, 0, 0]
+// The Pluralizer
+// (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
 //
-// var arrayLength = 4
-// var arrayValue = 11
-// // --> [11, 11, 11, 11]
-// Create a function that takes a number as an argument. Add up all the numbers from 1 to the number you passed to the function.
-// var addUp1 = 4
-// // 1 + 2 + 3 + 4 = 10
-// // --> 10
+// pluralizer(5, "cat")
+// // expected output: "5 cats"
 //
-// var addUp2 = 10
-// // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
-// // --> 55
-//
-// var addUp3 = 600
-// // --> 180300
-// EPIC Challenges
-//
-// Create a function called highLow that takes in a number and returns whether the number is higher or lower than the "answer".
-// Create an HTML page and link your JavaScript file. More info here.
-// As a user, I see a prompt or input where I can guess a number between 1 and 100 (both inclusive).
-// As a user, I can see if my guess is too high or too low.
-// As a user, if I guess the "answer" correctly I am notified that I won.
-// As a user, I can continue to guess the "answer" until I am correct.
-// STRETCH: As a user, if I have not guessed the correct number in seven tries I see a losing message.
+// pluralizer(1, "dog")
+// // expected output: "1 dog"
+// (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
