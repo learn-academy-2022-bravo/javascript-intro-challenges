@@ -111,19 +111,18 @@
 
 // (b) Have your function default to returning English.
 
-const twoLetterCodes = ["nl", "hr", "cs", "da", "sp"]
-const languageOut = ["Hallo Wereld!", "Pozdrav svijete!", "Ahoj světe!", "Hej Verden!", "Hola Mundo!"]
-
-
 const languageCode = (inputTwoLetters) => {
+        const twoLetterCodes = ["nl", "hr", "cs", "da", "sp"]
+        
+        const languageOut = ["Hallo Wereld!", "Pozdrav svijete!", "Ahoj světe!", "Hej Verden!", "Hola Mundo!"]
+        
         if (twoLetterCodes.indexOf(inputTwoLetters) == -1 ){ 
-                return console.log("Hello World!")
+                return "Hello World!"
         }else {
                 return languageOut[twoLetterCodes.indexOf(inputTwoLetters)]
         }
 }
-// console.log(twoLetterCodes.indexOf("nl"))
-// console.log(languageOut[2])
+
 console.log(languageCode("nl"))
 console.log(languageCode("hr"))
 console.log(languageCode("cs"))
