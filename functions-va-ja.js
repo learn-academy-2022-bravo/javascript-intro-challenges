@@ -78,10 +78,59 @@
 // }
 
 // console.log(yelling("ajkdshfkdjshfalskdjf"))
+
+
+
+
 // STRETCH Challenges
+
+
 // The World Translator
 // (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+
+// Dutch 	nl  Hallo Wereld!
+// Croatian	hr  Pozdrav svijete!
+// Czech	cs  Ahoj světe!
+// Danish	da  Hej Verden!
+//Spanish       sp  Hola Mundo!
+
+
+//  let [nl, hr, cs, da, sp] = ["Hallo Wereld!", "Pozdrav svijete!", "Ahoj světe!", "Hej Verden!", "Hola Mundo!"]
+
+
+// const languageCode = (languageCodeTwoLetters) => {
+//         return languageCodeTwoLetters
+// }
+
+// console.log(languageCode(nl))
+// console.log(languageCode(hr))
+// console.log(languageCode(cs))
+// console.log(languageCode(da))
+// console.log(languageCode(sp))
+
+
 // (b) Have your function default to returning English.
+
+const twoLetterCodes = ["nl", "hr", "cs", "da", "sp"]
+const languageOut = ["Hallo Wereld!", "Pozdrav svijete!", "Ahoj světe!", "Hej Verden!", "Hola Mundo!"]
+
+
+const languageCode = (inputTwoLetters) => {
+        if (twoLetterCodes.indexOf(inputTwoLetters) == -1 ){ 
+                return console.log("Hello World!")
+        }else {
+                return languageOut[twoLetterCodes.indexOf(inputTwoLetters)]
+        }
+}
+// console.log(twoLetterCodes.indexOf("nl"))
+// console.log(languageOut[2])
+console.log(languageCode("nl"))
+console.log(languageCode("hr"))
+console.log(languageCode("cs"))
+console.log(languageCode("da"))
+console.log(languageCode("sp"))
+console.log(languageCode("sdf"))
+// console.log(twoLetterCodes.indexOf("sdf"))
 
 // The Pluralizer
 // (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
