@@ -182,7 +182,7 @@ const pluralizer = (takeNum,takeNoun) => {
                 return (takeNum + " " + takeNoun)
         }
 }
-
+//
 console.log(pluralizer(1,"cat"))
 console.log(pluralizer(2,"cat"))
 console.log(pluralizer(1,"sheep"))
