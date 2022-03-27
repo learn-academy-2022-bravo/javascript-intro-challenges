@@ -171,7 +171,7 @@
 // (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
 
 // const collectiveNouns = ["sheep", "goose", "child", "person", "species"]
-// const collectiveNounsPlural = ["sheep", "goose", "children", "people", "species"]
+// const collectiveNounsPlural = ["sheep", "geese", "children", "people", "species"]
 
 // const pluralizer = (takeNum,takeNoun) => {
 //         if(takeNum !== 1 && collectiveNouns.indexOf(takeNoun) == -1 ){
@@ -193,3 +193,29 @@
 // console.log(pluralizer(2,"person"))
 // console.log(pluralizer(1,"species"))
 // console.log(pluralizer(2,"species"))
+
+
+const pluralizer = (number1, noun) => {
+    if(number1 > 1 && noun == "sheep"){
+      return number1 + " sheep"
+    }else if(number1 > 1 && noun == "person"){
+      return number1 + " people"
+    }else if(number1 > 1 && noun == "goose"){
+      return number1 + " geese"
+    }else if(number1 > 1){
+        return number1 + " " + noun + "s"
+    }else {
+      return number1 + " " + noun
+    }
+  }
+  console.log(pluralizer(1, "dog"))
+console.log(pluralizer(1,"cat"))
+console.log(pluralizer(2,"cat"))
+console.log(pluralizer(1,"sheep"))
+console.log(pluralizer(2,"sheep"))
+console.log(pluralizer(1,"goose"))
+console.log(pluralizer(2,"goose"))
+console.log(pluralizer(1,"person"))
+console.log(pluralizer(2,"person"))
+console.log(pluralizer(1,"species"))
+console.log(pluralizer(2,"species"))
