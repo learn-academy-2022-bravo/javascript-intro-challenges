@@ -170,26 +170,26 @@
 // //expected output obtained moving on
 // (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
 
-const collectiveNouns = ["sheep", "goose", "child", "person", "species"]
-const collectiveNounsPlural = ["sheep", "goose", "children", "people", "species"]
+// const collectiveNouns = ["sheep", "goose", "child", "person", "species"]
+// const collectiveNounsPlural = ["sheep", "goose", "children", "people", "species"]
 
-const pluralizer = (takeNum,takeNoun) => {
-        if(takeNum !== 1 && collectiveNouns.indexOf(takeNoun) == -1 ){
-                return (takeNum + " " + takeNoun + "s")
-        }else if(takeNum !== 1 && collectiveNouns.indexOf(takeNoun) !== -1 ) {
-                return takeNum + " "+ collectiveNounsPlural[collectiveNouns.indexOf(takeNoun)]
-        }else {
-                return (takeNum + " " + takeNoun)
-        }
-}
-//
-console.log(pluralizer(1,"cat"))
-console.log(pluralizer(2,"cat"))
-console.log(pluralizer(1,"sheep"))
-console.log(pluralizer(2,"sheep"))
-console.log(pluralizer(1,"goose"))
-console.log(pluralizer(2,"goose"))
-console.log(pluralizer(1,"person"))
-console.log(pluralizer(2,"person"))
-console.log(pluralizer(1,"species"))
-console.log(pluralizer(2,"species"))
+// const pluralizer = (takeNum,takeNoun) => {
+//         if(takeNum !== 1 && collectiveNouns.indexOf(takeNoun) == -1 ){
+//                 return (takeNum + " " + takeNoun + "s")
+//         }else if(takeNum !== 1 && collectiveNouns.indexOf(takeNoun) !== -1 ) {
+//                 return takeNum + " "+ collectiveNounsPlural[collectiveNouns.indexOf(takeNoun)]
+//         }else {
+//                 return (takeNum + " " + takeNoun)
+//         }
+// }
+// //
+// console.log(pluralizer(1,"cat"))
+// console.log(pluralizer(2,"cat"))
+// console.log(pluralizer(1,"sheep"))
+// console.log(pluralizer(2,"sheep"))
+// console.log(pluralizer(1,"goose"))
+// console.log(pluralizer(2,"goose"))
+// console.log(pluralizer(1,"person"))
+// console.log(pluralizer(2,"person"))
+// console.log(pluralizer(1,"species"))
+// console.log(pluralizer(2,"species"))
