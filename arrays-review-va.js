@@ -21,12 +21,10 @@ console.log(groceryList)
 //[ 'chips', 'dip', 'cookies', 'soda', 'granola' ]
 //[ 'chips', 'dip', 'cookies', 'soda' ]
 //the origional grocerylist is not changed so moving on the the second form.
-var groceryList4 = ["chips", "dip", "cookies"]
-
-var groceryList3 = groceryList4.join(", ") + ", granola".split(",")
-console.log(groceryList3)
-console.log(groceryList4)
-
+var groceryList4 = ["chips", "dip", "cookies"];
+var groceryList3 = groceryList4.join(", ") + ", granola".split(",");
+console.log(groceryList3);
+console.log(groceryList4);
 //result is as requested 
 // chips, dip, cookies, granola
 // [ 'chips', 'dip', 'cookies' ]
@@ -97,6 +95,8 @@ console.log(charsReversed.join(""))
 const array1 = ["victor", "andrew", "beau"]
 const array2 = ["darwin", "dustin", "elyse"]
 // 16. Write the code that sorts the names in alphabetical order.
+console.log(array1.sort())
+console.log(array2.sort())
 const joinArray1 = array1.concat(array2)
 console.log(joinArray1.sort())
 console.log("Question 17 follows.")
@@ -108,9 +108,56 @@ console.log(joinArray1.sort())
 // Consider the variables:
 
 // ```javascript
-// var numbers = [42, 221, 71, 7, 18, 87]
-// var oddIndexes = []
+var numbers = [42, 221, 71, 7, 18, 87]
+var oddIndexes = []
 // ```
 // 19. Write the code that logs the values from the numbers array that are at odd indexes.
-
+//log only the index value of any number that is at an odd index ie. 1,3,5
+//use non mutators to preserve the numbers array
+//will use a higher order function .filter to identify odd number index
+//console.log to show the filtered result
+console.log(numbers.filter(index => index % 2 !== 0))//[ 221, 71, 7, 87 ]
+//this shows the values that are odd not the values at the odd indexes
+//will use a loop on this next attempt to start with array 1 and add 2 every time as long as its below the last index of the array
+var numbersPop = numbers.pop()
+console.log(numbersPop)
+var numbersTotal = numbers.push(numbersPop)
+console.log("bellow is the result")
+for(let i = numbersTotal; i >= 0; i--){
+    if(i % 2 !== 0){
+        console.log(numbers[i])
+    }
+}
+//above I print out the numbers at the odd indexes but backwards below ill try and write them in order
+console.log("bellow is the result test2")
+for(let i = 0; i <= numbersTotal; i++){
+    if(i % 2 !== 0){
+        console.log(numbers[i])
+    }
+}
+//works putting out the odd index values moving on
 // 20. Write the code that adds the values from odd indexes into the oddIndexes array.
+//going to copy and past the function above and change the console.log to push into the oddIndexes array
+const oddIndexes20 = []
+console.log("bellow is the result test3")
+for(let i = 0; i <= numbersTotal; i++){
+    if(i % 2 !== 0){
+        oddIndexes20.push(numbers[i])
+    }
+}
+console.log(oddIndexes20)
+//will work on having a console.log count as it gets said more
+
+let countingLog = 1
+let countingLogSentence = "Below is the answer to question #"
+const qaz = () => {
+    console.log(countingLogSentence + countingLog++)
+}
+
+qaz()
+qaz()
+qaz()
+qaz()
+qaz()
+qaz()
+//I think this does it for that issue
