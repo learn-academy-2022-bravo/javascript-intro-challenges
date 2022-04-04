@@ -1,7 +1,7 @@
 let countingLog = 1
-let countingLogSentence = "Below is the console.log for the question #"
-const qaz = () => {
-    console.log(countingLogSentence + countingLog++)
+let countingLogSentence = "Below is the console.log for question #"
+const qaz = (qazNote = "") => {
+    console.log(countingLogSentence + countingLog++ + " Note: " +qazNote)
 }
 
 
@@ -115,10 +115,28 @@ console.log(yelling("this is a test of toUpperCase"))
 
 // 1. The World Translator   
 //   (a) Write a function named `helloWorld` that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.  
+var languageCode = ["af","sq","am",
+"ar","hy","eu","be","bn","bg","ca","ny","zh","hr","cs","da","nl","en","et","fi","fr","fy","ka","de","el","ha","he","hi","hu","is","ig","id","it","ja","kk","km","ky","lo","lv","lt","lb","mk","ms","ml","mn","my","ne","no","ps","fa","pl","pt","pa","ro","ru","gd","sr","st","si","sl","es","su","sw","sv","tg","th","tr","uk","uz","vi","cy","xh",
+"yi","yo","zu"]
+var languageCodeLanguage = ["Afrikaans","Albanian","Amharic",
+"Arabic","Armenia","Basque","Belarussian","Bengali","Bulgarian","Catalan","Chichewa","Chinese","Croatian","Czech","Danish","Dutch","English","Estonian","Finnish","French","Frisian","Georgian","German","Greek","Hausa","Hebrew","Hindi","Hungarian","Icelandic","Igbo","Indonesian","Italian","Japanese","Kazakh","Khmer","Kyrgyz","Lao","Latvian","Lithuanian","Luxemburgish","Macedonian","Malay","Malayalam","Mongolian","Myanmar","Nepali","Norwegian","Pashto","Persian","Polish","Portuguese","Punjabi","Romanian","Russian","ScotsGaelic","Serbian","Sesotho","Sinhala","Slovenian","Spanish","Sundanese","Swahili","Swedish","Tajik","Thai","Turkish","Ukrainian","Uzbek","Vietnamese","Welsh","Xhosa",
+"Yiddish","Yoruba","Zulu"]
+var languageHelloWorld = ["Hello Wêreld!","Përshendetje Botë!","ሰላም ልዑል!"
+,"مرحبا بالعالم!", "Բարեւ աշխարհ!", "Kaixo Mundua!","Прывітанне Сусвет!", "ওহে বিশ্ব!","Здравей свят!","Hola món!", "Moni Dziko Lapansi!", "你好世界！","Pozdrav svijete!", "Ahoj světe!","Hej Verden!","Hallo Wereld!","Hello World!","Tere maailm!","Hei maailma!", "Bonjour monde!","Hallo wrâld!","გამარჯობა მსოფლიო!", "Hallo Welt!","Γειά oou Κόσμε!","Sannu Duniya!","שלום עולם!", "नमस्ते दुनिया!","Helló Világ!", "Halló heimur!", "Ndewo Ụwa!","Halo Dunia!","Ciao mondo!","こんにちは世界！","Сәлем Әлем!","សួស្តី​ពិភពលោក!", "Салам дүйнө!","ສະ​ບາຍ​ດີ​ຊາວ​ໂລກ!","Sveika pasaule!", "Labas pasauli!","Moien Welt!","Здраво свету!", "Hai dunia!","ഹലോ വേൾഡ്!", "Сайн yy дэлхий!", "မင်္ဂလာပါကမ္ဘာလောက!","नमस्कार संसार!", "Hei Verden!","سلام نړی!","سلام دنیا!","Witaj świecie!","Olá Mundo!","ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੁਨਿਆ!", "Salut Lume!","Привет мир!","Hàlo a Shaoghail!","Здраво Свете!", "Lefatše Lumela!","හෙලෝ වර්ල්ඩ්!","Pozdravljen svet!", "¡Hola Mundo!","Halo Dunya!","Salamu Dunia!", "Hej världen!","Салом Ҷаҳон!", "สวัสดีชาวโลก!","Selam Dünya!","Привіт Світ!", "Salom Dunyo!","Chào thế giới!","Helo Byd!", "Molo Lizwe!"
+,"העלא וועלט!","Mo ki O Ile Aiye!","Sawubona Mhlaba!"]
 
 
+const helloWorld = (LC1) => {
+    if(languageCode.indexOf(LC1) !== -1){
+    return languageCodeLanguage[languageCode.indexOf(LC1)]+" - " + languageHelloWorld[languageCode.indexOf(LC1)]
+    }else{
+        return "Hello World!"
+    }
+}
+qaz("Answered question 11 (a) and (b). The link provided showing how to write in a default didn't help in answering this question but it did help with setting up notes in qaz, so that is cool.")
 
-
+console.log(helloWorld("zu"))
+// console.log(languageHelloWorld)
 
 //   (b) Have your function [default](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters) to returning English.
 
