@@ -1,6 +1,7 @@
 let countingLog = 1
 let countingLogSentence = "Below is the console.log for question #"
 const qaz = (qazNote = "") => {
+    console.log(" ")
     console.log(countingLogSentence + countingLog++ + " Note: " +qazNote)
 }
 
@@ -133,7 +134,8 @@ const helloWorld = (LC1) => {
         return "Hello World!"
     }
 }
-qaz("Answered question 11 (a) and (b). The link provided showing how to write in a default didn't help in answering this question but it did help with setting up notes in qaz, so that is cool.")
+countingLog = 1
+qaz("Start of STRETCH Challenges. Answered Stretch question 1 (a) and (b). The link provided in question (b) showing how to write in a default didn't help in answering this question but it did help with setting up notes in qaz, so that is cool.")
 
 console.log(helloWorld("zu"))
 // console.log(languageHelloWorld)
@@ -142,6 +144,10 @@ console.log(helloWorld("zu"))
 
 // 2. The Pluralizer  
 //   (a) Write a function named `pluralizer` that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
+
+//with this question we have a few parameters that need assigning.
+//any number that isnt 1 or -1 would have a pluralized noun in return
+//words that are collective nouns will need to be ordered ill google a list of collective nouns
 
 //   ```javascript
 //   pluralizer(5, "cat")
@@ -152,3 +158,27 @@ console.log(helloWorld("zu"))
 //   ```
 
 //   (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+
+
+//with this question we have a few parameters that need assigning.
+//any number that isnt 1 or -1 would have a pluralized noun in return
+//words that are collective nouns will need to be ordered ill google a list of collective nouns
+//I've got 56 or so ill now work on getting the information to be usefull
+const singularNouns = ["boat","house","cat","river","bus","wish","pitch","box","penny","spy","baby","city","daisy","woman","man","child","tooth","foot","person","leaf","mouse","goose","half","knife","wife","life","elf","loaf","potato","tomato","cactus","focus","fungus","nucleus","syllabus","analysis","diagnosis","oasis","thesis","crisis","phenomenon","criterion","datum","sheep","fish","deer","species","aircraft","news","athletics","linguistics","darts","billiards","trousers","jeans","glasses"]
+const singularToPluralNouns = ["boats","houses","cats","rivers","buses","wishes","pitches","boxes","pennies","spies","babies","cities","daisies","women","men","children","teeth","feet","people","leaves","mice","geese","halves","knives","wives","lives","elves","loaves","potatoes","tomatoes","cacti","foci","fungi","nuclei","syllabi/syllabuses","analyses","diagnoses","oases","theses","crises","phenomena","criteria","data","sheep","fish","deer","species","aircraft","news","athletics","linguistics","darts","billiards","trousers","jeans","glasses"]
+//singular nouns and plural versions are ready
+
+const pluralizer = (pluralizer1) => {
+    if(singularNouns.indexOf(pluralizer1) !== -1){
+        return singularToPluralNouns[singularNouns.indexOf(pluralizer1)]
+    }else {
+        return pluralizer1 + " is not currently supported. Please input another noun"
+    }
+}
+
+qaz("Any one of ~56 nouns input as a string can be pluralized using the pluralizer function.")
+console.log(pluralizer("sheep"))
+console.log(pluralizer("goose"))
+console.log(pluralizer("child"))
+console.log(pluralizer("person"))
+console.log(pluralizer("species"))
