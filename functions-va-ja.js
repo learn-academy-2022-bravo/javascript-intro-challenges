@@ -156,6 +156,34 @@
 // pluralizer(1, "dog")
 // // expected output: "1 dog"
 
+// (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+
+// STRETCH Challenges
+// The World Translator
+// (a) Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+
+
+
+const helloWorld = (numberTake) => {
+        return numberTake.toUpperCase()
+}
+
+console.log(helloWorld("ajkdshfkdjshfalskdjf"))
+
+// (b) Have your function default to returning English.
+
+
+
+// The Pluralizer
+// (a) Write a function named pluralizer that takes a number and a singular noun as arguments and returns the number and pluralized form of the noun, if necessary.
+
+// pluralizer(5, "cat")
+// // expected output: "5 cats"
+
+// pluralizer(1, "dog")
+// // expected output: "1 dog"
+// (b) Enhance your function so it can handle a few collective nouns like "sheep", "goose", "child", "person" and "species".
+
 // const pluralizer = (takeNum,takeNoun) => {
 //         if(takeNum !== 1){
 //                 return (takeNum + " " + takeNoun + "s")
